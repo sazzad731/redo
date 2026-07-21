@@ -1,0 +1,152 @@
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.redo-font-rethink{
+    font-family: "Rethink Sans", sans-serif;
+}
+
+.redo-font-hedvig{
+    font-family: "Hedvig Letters Serif", serif;
+}
+
+
+.container{
+    width: 100%;
+    padding: 0px 32px;
+}
+
+
+.redo-width-100{
+    width: 100%;
+}
+
+
+
+/* for font-weight */
+.redo-font-800{
+    font-weight: 800;
+}
+
+.redo-font-700{
+    font-weight: 700;
+}
+
+.redo-font-600{
+    font-weight: 600;
+}
+
+.redo-font-500{
+    font-weight: 500;
+}
+
+.redo-font-400{
+    font-weight: 400;
+}
+
+
+/* for font-size */
+.redo-font-60px{
+    font-size: 60px;
+}
+
+.redo-font-50px{
+    font-size: 50px;
+}
+
+.redo-font-32px{
+    font-size: 32px;
+}
+
+.redo-font-30px{
+    font-size: 30px;
+}
+
+.redo-font-22px{
+    font-size: 22px;
+}
+
+.redo-font-18px{
+    font-size: 18px;
+}
+
+.redo-font-15px{
+    font-size: 15px;
+}
+
+.redo-font-14px{
+    font-size: 14px;
+}
+
+.redo-font-13px{
+    font-size: 13px;
+}
+
+
+/* line height */
+.redo-line-height-110infi{
+    line-height: 110.00000000000001%;
+}
+
+.redo-line-height-120{
+    line-height: 120%;
+}
+
+.redo-lien-height-130{
+    line-height: 130%;
+}
+
+
+/* letter spacing */
+.redo-letter--2{
+    letter-spacing: -2%;
+}
+
+.redo-letter--1{
+    letter-spacing: -1%;
+}
+
+.redo-vertical-middle{
+    vertical-align: middle;
+}
+
+
+.redo-text-primary{
+    color: var(--accent);
+}
+
+.redo-text-secondary{
+    color: var(--paragraph-1);
+}
+
+.redo-paragraph-color{
+    color: var(--paragraph-2);
+}
+
+
+.redo-flex{
+    display: flex;
+}
+
+.redo-flex-col{
+    flex-direction: column;
+}
+
+.redo-flex-row{
+    flex-direction: row;
+}
+
+
+.redo-flex-between{
+    justify-content: space-between;
+}
+
+
+.redo-flex-center{
+    align-items: center;
+}
