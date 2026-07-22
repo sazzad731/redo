@@ -7,6 +7,17 @@ a{
 }
 
 
+img{
+    display: block;
+}
+
+
+.redo-max-width-467px{
+    width: 100%;
+    max-width: 467px;
+}
+
+
 .redo-font-rethink{
     font-family: "Rethink Sans", sans-serif;
 }
@@ -18,7 +29,20 @@ a{
 
 .container{
     width: 100%;
-    padding: 0px 32px;
+    padding: 32px;
+}
+
+
+.redo-border-left{
+    border-left: 1px solid var(--color-border);
+}
+
+.redo-border-top{
+    border-top: 1px solid var(--color-border);
+}
+
+.redo-border-bottom{
+    border-bottom: 1px solid var(--color-border);
 }
 
 
@@ -87,6 +111,10 @@ a{
     font-size: 13px;
 }
 
+.redo-font-10px{
+    font-size: 10px;
+}
+
 
 /* line height */
 .redo-line-height-110infi{
@@ -117,15 +145,15 @@ a{
 
 
 .redo-text-primary{
-    color: var(--accent);
+    color: var(--color-accent);
 }
 
 .redo-text-secondary{
-    color: var(--paragraph-1);
+    color: var(--color-paragraph-1);
 }
 
 .redo-paragraph-color{
-    color: var(--paragraph-2);
+    color: var(--color-paragraph-2);
 }
 
 
@@ -149,4 +177,32 @@ a{
 
 .redo-flex-center{
     align-items: center;
+}
+
+
+.redo-heading-1{
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 110.00000000000001%;
+    letter-spacing: -1%;
+    vertical-align: middle;
+}
+
+.redo-heading-3{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: -1%;
+    vertical-align: middle;
+    color: var(--color-paragraph-1);
+}
+
+
+.redo-paragraph{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: -1%;
+    vertical-align: middle;
+    color: var(--color-paragraph-2);
 }
