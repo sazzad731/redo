@@ -24,7 +24,6 @@ html{
 .sidebar{
     width: 250px;
     background-color: #FFFFFF;
-    /* height: 100vh; */
     position: fixed;
     overflow-y: auto;
     z-index: 999;

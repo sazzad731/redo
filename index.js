@@ -7,11 +7,11 @@ document.addEventListener("DOMContentLoaded", function(){
         if(nav.classList.contains("active")){
             nav.classList.remove("active")
             addBorder.style.borderBottom = "none";
-            menu.innerText = "menu";
+            menu.innerText = "Menu";
         }else{
             nav.classList.add("active");
             addBorder.style.borderBottom = "1px solid #0000001A"
-            menu.innerText = "close"
+            menu.innerText = "Close"
         }
     })
 })

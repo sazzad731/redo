@@ -74,6 +74,12 @@
     }
 
 
+    .redo-padding-x-32px{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
     .brand-strategy{
         padding-top: 88px;
         padding-bottom: 88px;
@@ -349,6 +355,11 @@
 
 
 @media screen and (max-width: 530px) {
+    .hero-img {
+        height: 262px !important;
+        object-fit: cover;
+    }
+    
     .main-right-container{
         padding-top: 48px;
     }
