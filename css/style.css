@@ -15,19 +15,29 @@ body{
     overflow-x: hidden;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
-/* sidebar section */
+
+/* sidebar section*/
 .sidebar{
     width: 250px;
     background-color: #FFFFFF;
-    height: 100vh;
+    /* height: 100vh; */
     position: fixed;
     overflow-y: auto;
+    z-index: 999;
+}
+
+.sidebar.active{
+    height: 361px;
 }
 
 .sidebar::-webkit-scrollbar{
     display: none;
 }
+
 
 .logo{
     width: 51.01px;
@@ -35,10 +45,14 @@ body{
 }
 
 .logo-a{
-    border-bottom: 1px solid #0000001A;
     width: 100%;
     display: block;
     padding: 30px 32px;
+}
+
+
+.menu{
+    display: none;
 }
 
 
@@ -106,6 +120,11 @@ body{
     padding-bottom: 128px;
 }
 
+.contents-section-h3{
+    width: 100%;
+    max-width: 352px;
+}
+
 
 
 
@@ -132,6 +151,7 @@ body{
 
 .personality-div-1{
     padding-bottom: 32px;
+    gap: 32px;
 }
 
 .personality-img{
@@ -227,6 +247,10 @@ body{
     row-gap: 30px;
 }
 
+.incorrect-img{
+    margin-bottom: 10px;
+}
+
 .incorrect-svg{
     gap: 5px;
 }
@@ -261,6 +285,10 @@ body{
     margin-bottom: 40px;
 }
 
+.secondary-palette-h3{
+    margin-bottom: 20px;
+}
+
 
 .palette-grid{
     display: grid;
@@ -270,8 +298,9 @@ body{
 }
 
 .color-palette{
-    width: 229.5px;
-    height: 229.5px;
+    /* width: 229.5px;
+    height: 229.5px; */
+    aspect-ratio: 1 / 1;
     border-radius: 50%;
     margin-bottom: 10px;
 }
@@ -355,17 +384,23 @@ body{
 
 
 /* 05 Typography section */
+.typography-section{
+    padding-bottom: 120px;
+}
+
 .typography-div-1{
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .typography-img{
     margin: 40px 0px;
 }
 
+.typography-div-1-div-2-p-2{
+    margin-bottom: 40px;
+}
+
 .typography-div-2{
-    padding: 0px 32px;
-    margin-top: 30px;
     margin-bottom: 100px;
 }
 
@@ -390,9 +425,97 @@ body{
 
 
 
-.typography-div-4-p{
+.typography-common-div{
+    padding: 30px 32px 30px 0px;
+}
+
+
+.typography-common-div-1-p{
     width: 100%;
     max-width: 546px;
-    margin-top: 30px;
-    margin-bottom: 32px;
+    margin: 30px 0px;
+}
+
+.typography-common-div-p-group{
+    padding-bottom: 7px;
+}
+
+
+
+.typography-common-div-2-p{
+    width: 100%;
+    max-width: 654px;
+    margin: 10px 0px 30px 0px;
+}
+
+
+.typography-common-div-3-p{
+    width: 100%;
+    max-width: 505.07px;
+    margin: 10px 0px 30px 0px;
+}
+
+.typography-common-div-4-p{
+    width: 100%;
+    max-width: 517px;
+    margin-bottom: 30px;
+}
+
+
+
+/* 06 Art Direction section */
+.art-direction{
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.art-div-1{
+    margin-bottom: 65px;
+    padding: 20px 32px 0px;
+}
+
+.art-direction-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 32px;
+    row-gap: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.art-grid-item-caption{
+    margin: 10px 0px 8px 0px;
+}
+
+.art-grid-item-p{
+    font-size: 13px;
+}
+
+
+/* footer section */
+.footer{
+    padding-top: 128px;
+    padding-bottom: 32px;
+}
+
+.footer-div-1{
+    align-items: end;
+    gap: 59px;
+    padding: 0px 40px;
+    margin-bottom: 31px;
+}
+
+.footer-div-1-ul{
+    width: 100%;
+    max-width: 366px;
+}
+
+
+.footer-div-2{
+    padding: 40px 40px 20px;
+}
+
+
+.footer-div-2-ul{
+    gap: 16px;
 }

@@ -1,0 +1,459 @@
+@media screen and (max-width: 800px) {
+    .sidebar{
+        width: 100% !important;
+        padding: 0px 32px;
+        margin: 0 auto;
+        border-bottom: 1px solid #0000001A;
+    }
+
+
+    .logo{
+        margin-bottom: 4.17px;
+    }
+
+    .logo-a{
+        padding: 14px 0px !important;
+    }
+
+    .nav-ul-1, .nav-ul-2{
+        flex-direction: row;
+        text-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .nav-ul-1{
+        overflow-x: auto;
+        padding: 14px 0px !important;
+        border-bottom: none !important;
+    }
+
+    .nav-ul-1::-webkit-scrollbar {
+        display: none;
+    }
+
+    .sidebar-a{
+        font-size: 13px;
+    }
+
+    .nav-ul-2{
+        position: absolute;
+        top: 10px;
+        right: 32px;
+        gap: 12px;
+        padding: 0px !important;
+    }
+
+    .nav-ul-2-a{
+        font-size: 13px;
+    }
+
+    .main-right-container {
+        width: 100% !important;
+        padding-top: 91px;
+    }
+
+    .redo-heading-1{
+        font-size: 45px;
+    }
+
+    .redo-paragraph{
+        font-size: 16px;
+        letter-spacing: 0%;
+    }
+
+    .redo-font-30px{
+        font-size: 26px;
+    }
+
+    .redo-font-15px{
+        font-size: 13px;
+    }
+
+    .redo-max-width-467px{
+        max-width: 352px;
+    }
+
+
+    .brand-strategy{
+        padding-top: 88px;
+        padding-bottom: 88px;
+    }
+
+
+    .brand-guid{
+        gap: 32px;
+        padding-bottom: 80px !important;
+    }
+
+    .brand-guid-h2{
+        max-width: 316px !important;
+    }
+
+    .contents-section{
+        padding-bottom: 80px !important;
+    }
+
+    .brand-guid-content{
+        max-width: 388px !important;
+    }
+
+
+    .personality-section{
+        padding-top: 88px;
+        padding-bottom: 80px !important;
+    }
+
+    .personality-img{
+        height: 500px;
+        object-fit: cover;
+    }
+
+
+    .logo-section{
+        padding-top: 88px;
+        padding-bottom: 80px !important;
+    }
+
+    .logo-section-div-1{
+        margin-bottom: 0px !important;
+    }
+
+
+
+    .typography-section{
+        padding-top: 88px;
+        padding-bottom: 0px !important;
+    }
+
+    .typography-div-1{
+        padding-bottom: 0px !important;
+    }
+
+    .typography-img{
+        height: 300px;
+        object-fit: cover;
+    }
+
+
+    .responsive-col-revers{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    .typography-div-3{
+        border-top: 0px;
+    }
+
+    .typography-sizing-p{
+        max-width: 352px !important;
+    }
+
+
+    .typography-common-div-1-p{
+        margin-top: 0px !important;
+    }
+
+
+    .art-direction{
+        padding-top: 88px !important;
+    }
+
+
+    .footer-div-1{
+        flex-direction: column;
+        align-items: start !important;
+        margin-bottom: 39px !important;
+    }
+}
+
+
+
+@media screen and (max-width: 580px) {
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .redo-max-width-467px{
+        max-width: 100%;
+    }
+    
+    .redo-font-30px{
+        font-size: 24px;
+    }
+
+    .redo-font-60px{
+        font-size: 41px;
+    }
+
+
+    .redo-heading-1{
+        font-size: 30px;
+    }
+
+
+    .redo-padding-x-32px{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+
+
+    
+    .brand-guid{
+        flex-direction: column;
+    }
+
+    .brand-guid-h2{
+        max-width: 100% !important;
+    }
+
+    .contents-section{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    .brand-strategy{
+        padding-top: 32px;
+        flex-direction: column;
+        gap: 12px;
+        padding-bottom: 80px !important;
+    }
+
+    .strategy-h2{
+        max-width: 150px !important;
+    }
+
+
+    .personality-section{
+        padding-top: 32px;
+    }
+
+    .personality-div-1{
+        flex-direction: column;
+        gap: 12px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .personality-img{
+        height: 243.44px;
+    }
+
+
+
+    .tone-voice{
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .tone-voice-h4{
+        font-size: 15px;
+    }
+
+
+
+    .sample-copy-content-grid{
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .sample-copy-h4{
+        font-size: 15px;
+    }
+
+
+
+    .logo-section{
+        padding-top: 32px;
+    }
+
+    .logo-section-div-1{
+        flex-direction: column;
+        gap: 12px;
+    }
+
+
+    .primary-lockup{
+        padding-top: 70px !important;
+    }
+
+
+    .logo-img{
+        height: 344px;
+        object-fit: cover;
+    }
+
+
+
+    .incorrect-usage-grid{
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+
+
+    .color-div-1{
+        flex-direction: column;
+        gap: 32px;
+    }
+
+
+    .typography-section{
+        padding-top: 35px;
+    }
+
+    .typography-div-1{
+        flex-direction: column;
+        gap: 12px;
+    }
+
+
+    .typography-div-1-div{
+        margin-bottom: 30px !important;
+    }
+
+    .typography-div-1-div-2-p-2{
+        margin-bottom: 60px !important;
+    }
+
+
+    .typography-div-2{
+        margin-bottom: 40px !important;
+    }
+
+
+    .sizing-main-div{
+        flex-direction: column;
+    }
+
+
+    .art-direction{
+        padding-top: 80px !important;
+    }
+
+    .art-div-1{
+        padding: 23px 20px 0px !important;
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+
+
+
+@media screen and (min-width: 530px) {
+    .sidebar-div-1 {
+        border-bottom: 1px solid #0000001A;
+    }
+}
+
+
+
+@media screen and (max-width: 530px) {
+    .main-right-container{
+        padding-top: 48px;
+    }
+    
+    
+    .sidebar{
+        padding: 0px 16px;
+        border-bottom: none;
+    }
+
+    .menu{
+        display: block !important;
+    }
+
+    .logo-a{
+        padding: 18.08px 0px !important;
+    }
+
+    .logo{
+        margin-bottom: 0px;
+    }
+
+
+    .navbar{
+        position: absolute;
+        top: 48px;
+        right: 0;
+        width: 100%;
+        padding: 0px 20px;
+        z-index: 10;
+    }
+    
+    .nav-ul-1,
+    .nav-ul-2 {
+        flex-direction: column;
+        border-bottom: 1px solid #0000001A !important;
+        padding: 20px 0px !important;
+    }
+
+    .nav-ul-2{
+        position: static;
+    }
+
+
+
+
+    .sample-copy-content-grid{
+        grid-template-columns: 1fr !important;
+    }
+
+
+
+    .incorrect-usage-grid{
+        grid-template-columns: 1fr !important;
+        row-gap: 16px !important;
+    }
+
+    .sizing-div{
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .partnerships-img{
+        height: 173px;
+        object-fit: cover;
+    }
+
+
+    .color-section{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .palette-grid{
+        grid-template-columns: 1fr !important;
+    }
+
+
+    .gradient-palette-grid{
+        grid-template-columns: 1fr !important;
+    }
+
+
+    .art-direction-grid{
+        grid-template-columns: 1fr !important;
+    }
+
+
+
+    .footer-div-1{
+        padding: 0px 16px !important;
+        margin-bottom: 31px !important;
+    }
+
+    .footer-logo{
+        width: 100%;
+    }
+
+    .footer-div-1-ul{
+        flex-direction: column;
+        gap: 19px;
+    }
+
+
+    .footer-div-2{
+        padding: 40px 16px 20px 16px !important;
+    }
+}

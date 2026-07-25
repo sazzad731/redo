@@ -7,31 +7,34 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="redo-flex redo-flex-between redo-width-100">
+    <div class="responsive-flex-col">
         <!-- sidebar -->
         <aside class="sidebar">
-            <a class="logo-a" href="/">
-                <img class="logo" src="./assets/icons/logo.svg" alt="logo">
-            </a>
-            <nav>
+            <div class="redo-flex redo-flex-between redo-flex-center sidebar-div-1">
+                <a class="logo-a" href="/">
+                    <img class="logo" src="./assets/icons/logo.svg" alt="logo">
+                </a>
+                <span class="menu">menu</span>
+            </div>
+            <nav class="navbar">
                 <ul class="redo-flex redo-flex-col nav-ul-1">
                     <li><a class="redo-text-secondary redo-font-500 redo-font-15px redo-line-height-120 redo-letter--2 redo-vertical-middle sidebar-a"
-                            href="#">Brand Strategy<sup class="redo-font-10px redo-font-500 redo-line-height-120 redo-letter--2 redo-paragraph-color sidebar-sup">01</sup></a></li>
+                            href="#brand-strategy">Brand Strategy<sup class="redo-font-10px redo-font-500 redo-line-height-120 redo-letter--2 redo-paragraph-color sidebar-sup">01</sup></a></li>
                     <li><a class="redo-text-secondary redo-font-500 redo-font-15px redo-line-height-120 redo-letter--2 redo-vertical-middle sidebar-a"
-                            href="#">Personality<sup class="redo-font-10px redo-font-500 redo-line-height-120 redo-letter--2 redo-paragraph-color sidebar-sup">02</sup></a></li>
+                            href="#personality">Personality<sup class="redo-font-10px redo-font-500 redo-line-height-120 redo-letter--2 redo-paragraph-color sidebar-sup">02</sup></a></li>
                     <li><a class="redo-text-secondary redo-font-500 redo-font-15px redo-line-height-120 redo-letter--2 redo-vertical-middle sidebar-a"
-                            href="#">Logo<sup class="redo-font-10px redo-font-500 redo-line-height-120 redo-letter--2 redo-paragraph-color sidebar-sup">03</sup></a></li>
+                            href="#logo">Logo<sup class="redo-font-10px redo-font-500 redo-line-height-120 redo-letter--2 redo-paragraph-color sidebar-sup">03</sup></a></li>
                     <li><a class="redo-text-secondary redo-font-500 redo-font-15px redo-line-height-120 redo-letter--2 redo-vertical-middle sidebar-a"
-                            href="#">Color<sup class="redo-font-10px redo-font-500 redo-line-height-120 redo-letter--2 redo-paragraph-color sidebar-sup">04</sup></a></li>
+                            href="#color">Color<sup class="redo-font-10px redo-font-500 redo-line-height-120 redo-letter--2 redo-paragraph-color sidebar-sup">04</sup></a></li>
                     <li><a class="redo-text-secondary redo-font-500 redo-font-15px redo-line-height-120 redo-letter--2 redo-vertical-middle sidebar-a"
-                            href="#">Typography<sup class="redo-font-10px redo-font-500 redo-line-height-120 redo-letter--2 redo-paragraph-color sidebar-sup">05</sup></a></li>
+                            href="#typography">Typography<sup class="redo-font-10px redo-font-500 redo-line-height-120 redo-letter--2 redo-paragraph-color sidebar-sup">05</sup></a></li>
                     <li><a class="redo-text-secondary redo-font-500 redo-font-15px redo-line-height-120 redo-letter--2 redo-vertical-middle sidebar-a"
-                            href="#">Art Direction<sup class="redo-font-10px redo-font-500 redo-line-height-120 redo-letter--2 redo-paragraph-color sidebar-sup">06</sup></a></li>
+                            href="#art-direction">Art Direction<sup class="redo-font-10px redo-font-500 redo-line-height-120 redo-letter--2 redo-paragraph-color sidebar-sup">06</sup></a></li>
                 </ul>
                 <ul class="redo-flex redo-flex-col nav-ul-2">
-                    <li><a class="redo-font-500 redo-font-15px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-paragraph-color"
+                    <li><a class="redo-font-500 redo-font-15px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-paragraph-color nav-ul-2-a"
                             href="#">Download Kit</a></li>
-                    <li><a class="redo-font-500 redo-font-15px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-paragraph-color"
+                    <li><a class="redo-font-500 redo-font-15px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-paragraph-color nav-ul-2-a"
                             href="#">Contact Us</a></li>
                 </ul>
             </nav>
@@ -40,7 +43,7 @@
 
         <main class="main-right-container redo-widht-100">
             <!-- hero section -->
-            <section>
+            <section id="hero">
                 <img class="hero-img" src="./assets/images/Hero.png" alt="Banner image">
             </section>
         
@@ -69,19 +72,19 @@
 
             <!-- contents section -->
              <section class="container redo-border-left redo-border-bottom redo-flex redo-flex-between contents-section">
-                <h3 class="redo-font-500 redo-font-30px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-text-secondary">Contents</h3>
+                <h3 class="redo-font-500 redo-font-30px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-text-secondary contents-section-h3">Contents</h3>
                 <ul class="redo-max-width-467px">
-                    <li class="redo-font-500 redo-font-30px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-text-secondary"><span class="redo-paragraph-color">01</span> Brand Strategy</li>
-                    <li class="redo-font-500 redo-font-30px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-text-secondary"><span class="redo-paragraph-color">02</span> Personality</li>
-                    <li class="redo-font-500 redo-font-30px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-text-secondary"><span class="redo-paragraph-color">03</span> Logo</li>
-                    <li class="redo-font-500 redo-font-30px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-text-secondary"><span class="redo-paragraph-color">04</span> Color</li>
-                    <li class="redo-font-500 redo-font-30px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-text-secondary"><span class="redo-paragraph-color">05</span> Typography</li>
+                    <li class="redo-font-500 redo-font-30px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-text-secondary redo-margin-bottom-10px"><span class="redo-paragraph-color">01</span> Brand Strategy</li>
+                    <li class="redo-font-500 redo-font-30px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-text-secondary redo-margin-bottom-10px"><span class="redo-paragraph-color">02</span> Personality</li>
+                    <li class="redo-font-500 redo-font-30px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-text-secondary redo-margin-bottom-10px"><span class="redo-paragraph-color">03</span> Logo</li>
+                    <li class="redo-font-500 redo-font-30px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-text-secondary redo-margin-bottom-10px"><span class="redo-paragraph-color">04</span> Color</li>
+                    <li class="redo-font-500 redo-font-30px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-text-secondary redo-margin-bottom-10px"><span class="redo-paragraph-color">05</span> Typography</li>
                     <li class="redo-font-500 redo-font-30px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-text-secondary"><span class="redo-paragraph-color">06</span> Art Direction</li>
                 </ul>
              </section>
 
             <!-- 01 Brand Strategy section -->
-             <section class="container redo-border-left redo-border-bottom redo-flex redo-flex-between brand-strategy">
+             <section id="brand-strategy" class="container redo-border-left redo-border-bottom redo-flex redo-flex-between brand-strategy">
                 <h2 class="redo-heading-1 strategy-h2">
                     <span class="redo-text-primary">01</span> Brand Strategy
                 </h2>
@@ -92,7 +95,7 @@
                         <br><br>
                         Redo restores confidence in financial numbers.
                     </p>
-                    <img class="strategy-img" src="./assets/images/Brand Strategy.png" alt="image">
+                    <img class="strategy-img redo-width-100" src="./assets/images/Brand Strategy.png" alt="image">
                     <p class="redo-paragraph">Born from the need for financial clarity, Redo was founded on a simple yet powerful mission: to correct financial errors
                     and optimize balance sheets. We believe that precision is the key to profitability, and that businesses shouldn’t be
                     held back by avoidable losses. With advanced technology and expert analysis, we uncover discrepancies, eliminate
@@ -105,7 +108,7 @@
 
 
             <!-- 02 Personality section-->
-             <section class="container redo-border-left redo-border-bottom personality-section">
+             <section id="personality" class="container redo-border-left redo-border-bottom personality-section">
 
                 <div class="redo-flex redo-flex-between personality-div-1">
                     <h2 class="redo-heading-1"><span class="redo-text-primary">02</span> Personality</h2>
@@ -131,7 +134,7 @@
                 </div>
 
                 <!-- Sample copy -->
-                <div class="sample-copy">
+                <div class="sample-copy redo-border-top">
                     <h3 class="redo-heading-3 sample-copy-h3">Sample Copy</h3>
                     <div class="sample-copy-content-grid">
                         <div>
@@ -160,7 +163,7 @@
 
 
             <!-- 03 Logo section -->
-             <section class="container redo-border-left redo-border-bottom logo-section">
+             <section id="logo" class="container redo-border-left redo-border-bottom logo-section">
                 <div class="redo-flex redo-flex-between logo-section-div-1">
                     <h2 class="redo-heading-1"><span class="redo-text-primary">03</span> Logo</h2>
                     <p class="redo-paragraph redo-max-width-467px">
@@ -179,17 +182,17 @@
 
                 <div class="primary-lockup">
                     <h3 class="redo-heading-3 primary-lockup-h3">Primary Lockup</h3>
-                    <img class="redo-width-100" src="./assets/images/Primary Lockup.png" alt="image">
+                    <img class="redo-width-100 logo-img" src="./assets/images/Primary Lockup.png" alt="image">
                 </div>
 
                 <div class="clearspace">
                     <h3 class="redo-heading-3 clearspace-h3">Clearspace</h3>
-                    <img class="redo-width-100" src="./assets/images/Clearspace.png" alt="image">
+                    <img class="redo-width-100 logo-img" src="./assets/images/Clearspace.png" alt="image">
                 </div>
 
                 <div class="secondary-lockups">
                     <h3 class="redo-heading-3 secondary-lockups-h3">Secondary Lockups</h3>
-                    <img class="redo-width-100" src="./assets/images/Secondary Lockups.png" alt="image">
+                    <img class="redo-width-100 logo-img" src="./assets/images/Secondary Lockups.png" alt="image">
                 </div>
 
 
@@ -197,45 +200,45 @@
                     <h3 class="redo-heading-3 incorrect-usage-h3">Incorrect Usage</h3>
                     <div class="incorrect-usage-grid">
                         <div>
-                            <img class="redo-width-100" src="./assets/images/Incorrect Usage-1.png" alt="image">
+                            <img class="redo-width-100 incorrect-img" src="./assets/images/Incorrect Usage-1.png" alt="image">
                             <div class="redo-flex redo-flex-center incorrect-svg">
                                 <img src="./assets/icons/incorrect.svg" alt="image">
-                                <p>Do not resize the mark</p>
+                                <p class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle">Do not resize the mark</p>
                             </div>
                         </div>
                         <div>
-                            <img class="redo-width-100" src="./assets/images/Incorrect Usage-2.png" alt="image">
+                            <img class="redo-width-100 incorrect-img" src="./assets/images/Incorrect Usage-2.png" alt="image">
                             <div class="redo-flex redo-flex-center incorrect-svg">
                                 <img src="./assets/icons/incorrect.svg" alt="image">
-                                <p>Do not rotate the logo</p>
+                                <p class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle">Do not rotate the logo</p>
                             </div>
                         </div>
                         <div>
-                            <img class="redo-width-100" src="./assets/images/Incorrect Usage-3.png" alt="image">
+                            <img class="redo-width-100 incorrect-img" src="./assets/images/Incorrect Usage-3.png" alt="image">
                             <div class="redo-flex redo-flex-center incorrect-svg">
                                 <img src="./assets/icons/incorrect.svg" alt="image">
-                                <p>Do not change the color of the mark alone</p>
+                                <p class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle">Do not change the color of the mark alone</p>
                             </div>
                         </div>
                         <div>
-                            <img class="redo-width-100" src="./assets/images/Incorrect Usage-4.png" alt="image">
+                            <img class="redo-width-100 incorrect-img" src="./assets/images/Incorrect Usage-4.png" alt="image">
                             <div class="redo-flex redo-flex-center incorrect-svg">
                                 <img src="./assets/icons/incorrect.svg" alt="image">
-                                <p>Do not outline the logo</p>
+                                <p class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle">Do not outline the logo</p>
                             </div>
                         </div>
                         <div>
-                            <img class="redo-width-100" src="./assets/images/Incorrect Usage-5.png" alt="image">
+                            <img class="redo-width-100 incorrect-img" src="./assets/images/Incorrect Usage-5.png" alt="image">
                             <div class="redo-flex redo-flex-center incorrect-svg">
                                 <img src="./assets/icons/incorrect.svg" alt="image">
-                                <p>Do not reverse the lockup</p>
+                                <p class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle">Do not reverse the lockup</p>
                             </div>
                         </div>
                         <div>
-                            <img class="redo-width-100" src="./assets/images/Incorrect Usage-6.png" alt="image">
+                            <img class="redo-width-100 incorrect-img" src="./assets/images/Incorrect Usage-6.png" alt="image">
                             <div class="redo-flex redo-flex-center incorrect-svg">
                                 <img src="./assets/icons/incorrect.svg" alt="image">
-                                <p>Do not add gradients the logo</p>
+                                <p class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle">Do not add gradients the logo</p>
                             </div>
                         </div>
                     </div>
@@ -244,13 +247,13 @@
 
                 <div>
                     <h3 class="redo-heading-3 partnerships-h3">Partnerships</h3>
-                    <img class="redo-width-100" src="./assets/images/Partnerships.png" alt="image">
+                    <img class="redo-width-100 partnerships-img" src="./assets/images/Partnerships.png" alt="image">
                 </div>
              </section>
 
 
             <!-- 04 Color section -->
-             <section class="container redo-border-left redo-border-bottom color-section">
+            <section id="color" class="container redo-border-left redo-border-bottom color-section">
                 <div class="redo-flex redo-flex-between color-div-1">
                     <h2 class="redo-heading-1"><span class="redo-text-primary">04</span> Color</h2>
                     <p class="redo-paragraph redo-max-width-467px">
@@ -267,112 +270,112 @@
                     <div class="palette-grid">
                         <div>
                             <div class="color-palette color-orange"></div>
-                            <p class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">Orange</p>
-                            <p class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">Hex: #FA9819</p>
+                            <p class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">Orange</p>
+                            <p class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">Hex: #FA9819</p>
                         </div>
                         <div>
                             <div class="color-palette blue-tint"></div>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
                                 Blue Tint</p>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
                                 Hex: #B6C9CF</p>
                         </div>
                         <div>
                             <div class="color-palette color-white"></div>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
                                 White</p>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
                                 Hex: #000000</p>
                         </div>
                         <div>
                             <div class="color-palette baby-blue"></div>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
                                 Baby Blue</p>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
                                 Hex: #C6EBF7</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="secondary-palette">
-                    <h3 class="redo-heading-3 primary-palette-h3">Secondary Palette</h3>
+                    <h3 class="redo-heading-3 secondary-palette-h3">Secondary Palette</h3>
                     <div class="palette-grid">
                         <div>
                             <div class="color-palette color-navy"></div>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
                                 Navy</p>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
                                 Hex: #1E3D59</p>
                         </div>
                         <div>
                             <div class="color-palette color-caption"></div>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
                                 Caption</p>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
                                 Hex: #48749E</p>
                         </div>
                         <div>
                             <div class="color-palette sky-blue"></div>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
                                 Sky Blue</p>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
                                 Hex: #DEEEFE</p>
                         </div>
                         <div>
                             <div class="color-palette off-blue"></div>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
                                 Off-blue</p>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
                                 Hex: #E8EBEF</p>
                         </div>
                         <div>
                             <div class="color-palette deep-orange"></div>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
                                 Deep Orange</p>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
                                 Hex: #CD4900</p>
                         </div>
                         <div>
                             <div class="color-palette color-black"></div>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
                                 Black</p>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
                                 Hex: #000000</p>
                         </div>
                         <div>
                             <div class="color-palette dark-gray"></div>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
                                 Dark Grey</p>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
                                 Hex: #A3A3A3</p>
                         </div>
                         <div>
                             <div class="color-palette color-grey"></div>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary color-name">
                                 Grey</p>
                             <p
-                                class="redo-font-500 redo-font-size-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
+                                class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary">
                                 Hex: #E5E5E5</p>
                         </div>
                     </div>
@@ -405,18 +408,18 @@
                         </div>
                     </div>
                 </div>
-             </section>
+            </section>
 
 
             <!-- 05 Typography section -->
-             <section class="container redo-border-left redo-border-bottom">
+             <section id="typography" class="container redo-border-left typography-section">
                 <div class="redo-flex redo-flex-between typography-div-1">
                     <h2 class="redo-heading-1"><span class="redo-text-primary">05</span> Typography</h2>
-                    <div class="redo-max-width-467px">
+                    <div class="redo-max-width-467px typography-div-1-div">
                         <p class="redo-paragraph">Redo’s typography balances clarity and professionalism with a modern yet timeless type pairing, reinforcing our
                         commitment to accuracy, efficiency, and financial stability.</p>
                         <img class="redo-width-100 typography-img" src="./assets/images/Typography.png" alt="image">
-                        <p class="redo-paragraph">
+                        <p class="redo-paragraph typography-div-1-div-2-p-2">
                             Primary Sans-Serif <span class="redo-text-primary">(Rethink Sans Reg)</span> is a clean, modern sans-serif typeface that ensures legibility and precision
                             across all digital and print materials. Its geometric structure reflects clarity, efficiency, and trust, making it the
                             ideal choice for data-heavy content, dashboards, and user interfaces.
@@ -431,33 +434,161 @@
                     </div>
                 </div>
 
-                <div class="typography-div-2">
-                    <p class="redo-font-500 redo-font-15px redo-line-height-120 redo-letter--2 redo-text-secondary typeface-p">Primary Typeface</p>
-                    <p class="redo-font-400 redo-font-60px redo-lien-height-130 redo-letter--2 redo-text-secondary typeface-h2">Rethink Sans Reg</p>
-
-                    <p class="redo-font-500 redo-font-15px redo-line-height-120 redo-letter--2 redo-text-secondary typeface-p">Secondary Typeface</p>
-                    <p class="redo-font-400 redo-font-60px redo-lien-height-130 redo-letter--2 redo-text-secondary redo-font-hedvig">Hedvig Letters Serif</p>
-                </div>
-
-
-                <div class="typography-div-3 redo-border-top">
-                    <div class="redo-flex redo-flex-between">
-                        <h3 class="redo-heading-3">Sizing</h3>
-                        <p class="redo-font-500 redo-font-18px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-paragraph-color typography-sizing-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="redo-padding-x-32px">
+                    <div class="typography-div-2">
+                        <p class="redo-font-500 redo-font-15px redo-line-height-120 redo-letter--2 redo-text-secondary typeface-p">Primary
+                            Typeface</p>
+                        <p class="redo-font-400 redo-font-60px redo-lien-height-130 redo-letter--2 redo-text-secondary typeface-h2">Rethink
+                            Sans Reg</p>
+                    
+                        <p class="redo-font-500 redo-font-15px redo-line-height-120 redo-letter--2 redo-text-secondary typeface-p">Secondary
+                            Typeface</p>
+                        <p class="redo-font-400 redo-font-60px redo-lien-height-130 redo-letter--2 redo-text-secondary redo-font-hedvig">
+                            Hedvig Letters Serif</p>
                     </div>
-                </div>
-
-                <div class="typography-div-4">
-                    <p class="redo-font-50px redo-font-400 redo-line-height-110infi redo-letter--2 redo-text-secondary typography-div-4-p">Clear Up Confusion, Gain Peace of Mind</p>
-                    <div class="redo-flex redo-flex-between">
-                        <p>Type Sizes > 72pt/px</p>
-                        <p>100% Leading</p>
-                        <p>-2% Tracking</p>
+                    
+                    
+                    <div class="responsive-col-revers sizing-main-div">
+                        <div class="typography-div-3 redo-border-top">
+                            <div class="redo-flex redo-flex-between sizing-div">
+                                <h3 class="redo-heading-3">Sizing</h3>
+                                <p
+                                    class="redo-paragraph typography-sizing-p">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="responsive-col-revers">
+                            <div class="typography-common-div">
+                                <p
+                                    class="redo-font-50px redo-font-400 redo-line-height-110infi redo-letter--2 redo-text-secondary typography-common-div-1-p">
+                                    Clear Up Confusion, Gain Peace of Mind</p>
+                                <div
+                                    class="redo-flex redo-flex-between redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-paragraph-color redo-border-bottom typography-common-div-p-group">
+                                    <p>Type Sizes > 72pt/px</p>
+                                    <p>100% Leading</p>
+                                    <p>-2% Tracking</p>
+                                </div>
+                            </div>
+                            
+                            <div class="typography-common-div">
+                                <p
+                                    class="redo-font-32px redo-font-400 redo-line-height-110infi redo-letter--2 redo-text-secondary typography-common-div-2-p">
+                                    Whether it’s a bank error, an unauthorized charge, or an overlooked refund, we ensure you don’t pay for
+                                    something you
+                                    shouldn’t have.</p>
+                                <div
+                                    class="redo-flex redo-flex-between redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-paragraph-color redo-border-bottom typography-common-div-p-group">
+                                    <p>Type Sizes 55–72pt/px</p>
+                                    <p>110% Leading</p>
+                                    <p>-2% Tracking</p>
+                                </div>
+                            </div>
+                            
+                            <div class="typography-common-div">
+                                <p
+                                    class="redo-font-20px redo-font-400 redo-line-height-120 redo-letter--1 redo-text-secondary typography-common-div-3-p">
+                                    Our team works diligently to recover lost funds, correct inaccuracies, and keep your financial records
+                                    accurate—so you
+                                    can feel confident about every dollar in your account.</p>
+                                <div
+                                    class="redo-flex redo-flex-between redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-paragraph-color redo-border-bottom typography-common-div-p-group">
+                                    <p>Type Sizes 24–55pt/px</p>
+                                    <p>120% Leading</p>
+                                    <p>-1% Tracking</p>
+                                </div>
+                            </div>
+                            
+                            <div class="typography-common-div">
+                                <p
+                                    class="redo-font-14px redo-font-400 redo-line-height-130  redo-text-secondary redo-font-hedvig typography-common-div-4-p">
+                                    Financial errors shouldn’t slow you down or cause unnecessary stress. Whether it’s an incorrect charge, a
+                                    duplicate
+                                    transaction, or a miscalculated fee, we step in to make things right. Our process is simple, straightforward,
+                                    and
+                                    designed to get your money back where it belongs—quickly and without hassle.</p>
+                                <div
+                                    class="redo-flex redo-flex-between redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-paragraph-color redo-border-bottom typography-common-div-p-group">
+                                    <p>Type Sizes 0-24pt/px</p>
+                                    <p>130% Leading</p>
+                                    <p>0% Tracking</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
              </section>
+
+
+
+            <!-- 06 Art Direction section -->
+             <section id="art-direction" class="redo-border-left art-direction">
+                <div class="redo-border-top redo-flex redo-flex-between art-div-1">
+                    <h2 class="redo-heading-1"><span class="redo-text-primary">06</span> Art Direction</h2>
+                    <p class="redo-paragraph redo-max-width-467px">Redo’s photography style reinforces our brand’s core values—trust, clarity, and financial empowerment—by showcasing
+                    visuals that reflect professionalism, accuracy, and control.</p>
+                </div>
+
+                <div class="container art-direction-grid">
+                    <div>
+                        <img class="redo-width-100" src="./assets/images/Art-1.png" alt="image">
+                        <p class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle art-grid-item-caption">Clean & Casual</p>
+                        <p class="redo-paragraph art-grid-item-p">Photography should feature modern, well-lit workspaces with a clean and organized feel. The focus should be on clarit, avoiding clutter or overly dramatic compositions.</p>
+                    </div>
+                    <div>
+                        <img class="redo-width-100" src="./assets/images/Art-2.png" alt="image">
+                        <p
+                            class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle art-grid-item-caption">
+                            Subtle Technology Integration</p>
+                        <p class="redo-paragraph art-grid-item-p">Photography should include elements of financial technology—computer screens displaying dashboards, tablets with data
+                        analytics, or hands interacting with financial tools—to highlight Redo’s tech-driven approach to error correction.</p>
+                    </div>
+                    <div>
+                        <img class="redo-width-100" src="./assets/images/Art-3.png" alt="image">
+                        <p
+                            class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle art-grid-item-caption">
+                            Financial Storytelling</p>
+                        <p class="redo-paragraph art-grid-item-p">Images should capture real-world financial scenarios—professionals analyzing reports, business owners reviewing balance
+                        sheets, and teams discussing financial strategies. This reinforces Redo’s role in helping businesses take control of
+                        their finances.</p>
+                    </div>
+                    <div>
+                        <img class="redo-width-100" src="./assets/images/Art-4.png" alt="image">
+                        <p
+                            class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle art-grid-item-caption">
+                            People with Confidence & Focus</p>
+                        <p class="redo-paragraph art-grid-item-p">Images should capture real-world financial scenarios—professionals analyzing reports, business owners reviewing balance
+                        sheets, and teams discussing financial strategies. This reinforces Redo’s role in helping businesses take control of
+                        their finances.</p>
+                    </div>
+                </div>
+             </section>
+
+            <footer class="footer">
+                <div class="redo-flex footer-div-1">
+                    <img class="footer-logo" src="./assets/icons/footer-logo.svg" alt="logo">
+                    <ul class="redo-flex redo-flex-between footer-div-1-ul">
+                        <li><a class="redo-font-500 redo-font-15px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-text-secondary" href="#">Download Kit</a></li>
+                        <li><a class="redo-font-500 redo-font-15px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-text-secondary" href="#">Contact Us</a></li>
+                        <li><a class="redo-font-500 redo-font-15px redo-line-height-120 redo-letter--2 redo-vertical-middle redo-text-secondary" href="#hero">Back to the top</a></li>
+                    </ul>
+                </div>
+
+                <div class="redo-flex redo-flex-between redo-border-top footer-div-2">
+                    <ul class="redo-flex footer-div-2-ul">
+                        <li><a class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary" href="#">&copy; Redo</a></li>
+                        <li><a class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary" href="#">Legal</a></li>
+                        <li><a class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle redo-text-secondary" href="#">Privacy</a></li>
+                    </ul>
+                    <p class="redo-font-500 redo-font-13px redo-line-height-120 redo-letter--1 redo-vertical-middle">All Rights Reserved</p>
+                </div>
+            </footer>
         </main>
     </div>
+
+    <script src="./index.js"></script>
 </body>
 </html>
