@@ -431,7 +431,7 @@ html{
     height: 100%;
     background-image:
         radial-gradient(circle 41cqw at 90% 93%, #F4B551 69%, #90C2DF00 137%),
-        radial-gradient(circle at 63% 139%, #903502 67%, #90350200 52%),
+        radial-gradient(circle 114cqw at 63% 139%, #903502 67%, #90350200 52%),
         radial-gradient(circle 60cqw at 71% 54%, #F4B551 69%, #90C2DF00 137%);
     filter: blur(50px);
 }
