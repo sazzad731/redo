@@ -371,6 +371,94 @@ html{
     row-gap: 20px;
 }
 
+.gradient-div{
+    width: 100%;
+    height: auto;
+    /* overflow: hidden; */
+}
+
+.gradient-1{
+    aspect-ratio: 435 / 292.48;
+    background: #B5C9D5;
+    background-image: radial-gradient(circle 293px at 78% 124%, #F77228 19%, transparent 114%),
+        radial-gradient(circle 537px at 54% 80%, #FFC05A 53%, transparent 93%);
+
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.gradient-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: radial-gradient(ellipse 28% 24% at 90% 59%, #F77228 -70%, transparent 189%);
+    transform: rotate(17deg);
+    transform-origin: 62% 102%;
+}
+
+
+.gradient-2 {
+    aspect-ratio: 435 / 292.48;
+    background: #FFB63F;
+    background-image: radial-gradient(circle 312px at 71% 54%, #90C2DF 27%, #90C2DF00 137%), radial-gradient(circle 229px at 42% 101%, #76A1BC 104%, #76A1BC00 165%);
+
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+
+.gradient-3 {
+    aspect-ratio: 435 / 292.48;
+    background: #F8732A;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.gradient-3::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+    radial-gradient(circle 259px at 90% 93%, #F4B551 69%, #90C2DF00 137%),
+    radial-gradient(circle at 63% 139%, #903502 67%, #90350200 52%),
+    radial-gradient(circle 312px at 71% 54%, #F4B551 69%, #90C2DF00 137%);
+    filter: blur(50px);
+}
+
+
+.gradient-4 {
+    aspect-ratio: 435 / 292.48;
+    background: #1E3D59;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.gradient-4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+        radial-gradient(circle 145px at 72% 54%, #A6D4EF 69%, #A6D4EF00 137%),
+        radial-gradient(circle 313px at 41% -5%, #A6D4EF 69%, #A6D4EF00 137%);
+    filter: blur(50px);
+}
+
+
+
 .gradient-palette-h3{
     margin-bottom: 20px;
 }

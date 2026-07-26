@@ -368,6 +368,8 @@
     .sidebar{
         padding: 0px 16px;
         border-bottom: none;
+        height: 45px;
+        transition: height .2s;
     }
 
     .menu{

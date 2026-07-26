@@ -20,10 +20,12 @@ img{
 
 .redo-font-rethink{
     font-family: "Rethink Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 .redo-font-hedvig{
     font-family: "Hedvig Letters Serif", serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 
