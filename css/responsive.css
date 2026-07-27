@@ -171,6 +171,22 @@
         align-items: start !important;
         margin-bottom: 39px !important;
     }
+
+
+    .gradient-1{
+        background-image:
+                radial-gradient(circle 56cqw at 110% 124%, #F77228 19%, transparent 114%),
+                radial-gradient(circle 67cqw at 54% 80%, #FFC05A 64%, transparent 84%) !important;
+    }
+
+    .gradient-3::before {
+    background-image: radial-gradient(circle 41cqw at 93% 93%, #F4B551 69%, #90C2DF00 137%), radial-gradient(circle 114cqw at 63% 139%, #903502 67%, #90350200 52%), radial-gradient(circle 60cqw at 71% 54%, #F4B551 69%, #90C2DF00 137%) !important;
+    filter: blur(22px) !important;
+    }
+
+    .gradient-4::before{
+        filter: blur(20px) !important;
+    }
 }
 
 
